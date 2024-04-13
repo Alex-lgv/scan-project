@@ -1,0 +1,58 @@
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 429px;
+  height: 523px;
+  box-shadow: 5px -5px 15px grey;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.formGroup label {
+  color: grey;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.formGroup input {
+  width: 379px;
+  height: 43px;
+  border-radius: 8px;
+  border: 1px solid #c7c7c7;
+  outline-color: #c7c7c7;
+  font-size: 20px;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.blackLock {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.socilaNetworks {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 430px) {
+  .signupForm {
+    width: 350px;
+  }
+
+  .formGroup input {
+    width: 300px;
+  }
+
+  .enterAndSignup {
+    width: 300px;
+  }
+}

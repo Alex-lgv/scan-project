@@ -1,0 +1,18 @@
+.btn {
+  width: 335px;
+  height: 59px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: #5970ff;
+  font-size: 20px;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 85%;
+}
+
+.btn:disabled {
+  opacity: 65%;
+}

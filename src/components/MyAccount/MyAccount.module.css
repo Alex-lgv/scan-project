@@ -1,0 +1,91 @@
+.accountInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 175px;
+  height: 63px;
+  border-radius: 5px;
+  background-color: #eae6e6;
+}
+
+.companiesLimitGroup {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-size: 13px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.companies {
+  font-size: 20px;
+  font-weight: bolder;
+  /* margin-left: 10px;
+  margin-bottom: 10px; */
+}
+
+.limit {
+  color: #8ac540;
+  font-size: 20px;
+  font-weight: bolder;
+  /* margin-left: 10px;
+  margin-bottom: 10px; */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinnerImg {
+  animation: rotate 2s linear infinite;
+  width: 24px;
+  height: 24px;
+  margin-left: 75.5px;
+}
+
+.accountIcon {
+  display: flex;
+}
+
+.textAndButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.textAndButton a {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.textAndButton button {
+  border: 0;
+  width: 42px;
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+}
+
+.textAndButton button:hover {
+  opacity: 70%;
+}
+
+@media (max-width: 1100px) {
+  .textAndButton a {
+    font-size: 13px;
+    margin: 5px;
+  }
+
+  .textAndButton button {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,81 @@
+.signup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 251px;
+  height: 26px;
+}
+
+.signup p {
+  font-family: Inter;
+  font-size: 14px;
+  opacity: 50%;
+}
+
+.link {
+  width: 65px;
+  height: 26px;
+  font-family: Inter;
+  font-size: 14px;
+  background-color: #7ce3e1;
+  cursor: pointer;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.link:hover {
+  opacity: 85%;
+}
+
+.signup2 {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: left;
+  animation: fadeIn 0.7s ease;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.link2 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .signup2 {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .signup {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 137px;
+  background-color: #029491;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  /* margin-left: 300px; */
+}
